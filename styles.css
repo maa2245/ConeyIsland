@@ -1,0 +1,32 @@
+body {
+	
+}
+
+
+.row {
+	margin-top: 4px;
+
+
+
+	
+}
+
+/* Here I am changing the CSS properties so they will appear differently on a small screen */
+@media only screen 
+and (max-width : 600px) {
+	body {
+		background-color: gray;
+		color: white;
+		
+		
+	}
+	h3
+	{color: black;
+	border: 5px solid black;
+	
+	}
+	p {color: orange;
+		border: 5px solid orange;
+	}
+	
+}
